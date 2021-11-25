@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.show>.dropdown-menu {
+  opacity: 1;
+}
+
+.dropdown-menu {
+  opacity: 0;
+  background-color: #fff;
+  padding: 5px;
+  border: none;
+}
+
+.dropdown-menu.show {
+  border: 1px solid #000;
+}
